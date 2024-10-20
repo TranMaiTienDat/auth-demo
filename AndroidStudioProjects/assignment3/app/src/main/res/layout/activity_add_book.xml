@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Book"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint" />
+
+    <EditText
+        android:id="@+id/editTextBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginTop="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBookStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_background" />
+
+    <Button
+        android:id="@+id/buttonSaveBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:elevation="4dp" />
+
+</LinearLayout>

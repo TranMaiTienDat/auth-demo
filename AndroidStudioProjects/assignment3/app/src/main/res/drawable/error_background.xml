@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFCCCC" /> <!-- Màu nền đỏ nhạt -->
+    <corners android:radius="4dp" /> <!-- Bo góc cho hình chữ nhật -->
+</shape>

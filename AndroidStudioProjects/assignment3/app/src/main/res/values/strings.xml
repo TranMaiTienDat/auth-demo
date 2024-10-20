@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Book Tracker</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_author">Author</string>
+    <string-array name="book_status_array">
+        <item>Reading</item>
+        <item>Completed</item>
+        <item>Want to Read</item>
+    </string-array>
+</resources>
